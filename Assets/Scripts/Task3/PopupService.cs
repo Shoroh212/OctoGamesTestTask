@@ -20,6 +20,7 @@ public class PopupService : MonoBehaviour, IPopupService
             popupRoot);
 
         currentPopup.Initialize(data);
+        Debug.Log("попап показан");
     }
 
     public void Hide()
@@ -27,6 +28,7 @@ public class PopupService : MonoBehaviour, IPopupService
         
 
         Destroy(currentPopup.gameObject);
+        Debug.LogError("Текущий попап уничтожен");
 
         currentPopup = null;
     }
