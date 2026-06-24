@@ -13,3 +13,9 @@ public interface ISaveSystem
     void Save<T>(T data);
     T Load<T>() where T : new();
 }
+
+public interface IPopupService
+{
+    void Show(PopupData data);
+    void Hide();
+}
