@@ -31,7 +31,7 @@ public class DemoController : MonoBehaviour
 
     public void Save()
     {
-        PlayerData data = new PlayerData
+        PlayerData data = new PlayerData()
         {
             coins = int.Parse(coinsInput.text),
             level = int.Parse(levelInput.text)

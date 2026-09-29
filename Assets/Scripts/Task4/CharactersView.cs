@@ -39,7 +39,7 @@ public class CharactersView : MonoBehaviour
             if (character == null)
                 continue;
 
-            totalValue += character.Value;
+           // totalValue += character.Value;
             charactersCount++;
         }
 

@@ -30,7 +30,7 @@ public class Statstracker : MonoBehaviour
 /* использование 
  * 
  * 
- *   Debug.Log(entity.name);
+   Debug.Log(entity.name);
  * 
  * 
  * 
