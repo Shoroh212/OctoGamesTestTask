@@ -1,4 +1,3 @@
 # OctoGamesTestTask
 
 
-от
